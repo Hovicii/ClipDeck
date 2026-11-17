@@ -35,9 +35,7 @@ prompt to your clipboard — paste it into your AI assistant once to turn it int
 
 ## Install with Homebrew (recommended — no Gatekeeper block)
 ```bash
-brew tap hovicii/tap
-brew trust hovicii/tap
-brew install --cask --no-quarantine hovicii/tap/clipdeck
+brew tap hovicii/tap && brew trust hovicii/tap && brew install --cask --no-quarantine hovicii/tap/clipdeck
 ```
 `--no-quarantine` installs the unsigned app without the "cannot verify malware" warning.
 Update: `brew upgrade --cask clipdeck` · Uninstall: `brew uninstall --cask clipdeck`
@@ -87,9 +85,7 @@ Personal utility. Use and modify freely.
 
 ## Homebrew로 설치 (권장 — Gatekeeper 차단 없음)
 ```bash
-brew tap hovicii/tap
-brew trust hovicii/tap
-brew install --cask --no-quarantine hovicii/tap/clipdeck
+brew tap hovicii/tap && brew trust hovicii/tap && brew install --cask --no-quarantine hovicii/tap/clipdeck
 ```
 `--no-quarantine` 덕분에 "악성 코드가 없음을 확인할 수 없습니다" 경고 없이 설치됩니다.
 업데이트: `brew upgrade --cask clipdeck` · 삭제: `brew uninstall --cask clipdeck`
